@@ -11,3 +11,6 @@ display: block; margin: auto
   src: url('CrashAlert.ttf');
   format('ttf');
 }
+nav td {
+style="font-size: 30pt"
+}
