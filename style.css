@@ -4,5 +4,5 @@ display: block; margin: auto
 @font-face {
   font-family: ransomblancozero;
   src: url("/FONTS/RansomBlancoZero.otf");
-  format("font/otf");
+  format("otf");
 }
