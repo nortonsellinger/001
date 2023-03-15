@@ -3,6 +3,6 @@ display: block; margin: auto
 }
 @font-face {
   font-family:Ransomblancozero;
-  src: url('/FONTS/RansomBlancoZero.otf');
+  src: url('FONTS/RansomBlancoZero.otf');
   format('otf');
 }
