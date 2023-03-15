@@ -12,5 +12,5 @@ display: block; margin: auto
   format('ttf');
 }
 nav td {
-style="bgcolor="black" style="font-family:crashalert; color: white; font-size: 30pt"
+style="background-color: black; font-family:crashalert; color: white; font-size: 30pt"
 }
