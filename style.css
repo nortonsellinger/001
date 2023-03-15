@@ -9,5 +9,5 @@ display: block; margin: auto
 @font-face {
   font-family:crashalert;
   src: url('CrashAlert.ttf');
-  format('otf');
+  format('ttf');
 }
