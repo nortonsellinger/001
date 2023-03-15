@@ -6,3 +6,8 @@ display: block; margin: auto
   src: url('RansomBlancoZero.otf');
   format('otf');
 }
+@font-face {
+  font-family:crashalert;
+  src: url('CrashAlert.ttf');
+  format('otf');
+}
