@@ -2,15 +2,14 @@
 display: block; margin: auto
 }
 @font-face {
-  font-family:Ransomblancozero;
+  font-family: Ransomblancozero;
   src: url('RansomBlancoZero.otf');
   format('otf');
 }
 @font-face {
-  font-family:crashalert;
+  font-family: crashalert;
   src: url('CrashAlert.ttf');
   format('ttf');
 }
-nav td {
-style="background-color: black; font-family:crashalert; color: white; font-size: 40pt"
+nav td {background-color: black; font-family: crashalert; color: white; font-size: 40pt
 }
