@@ -8,8 +8,8 @@ display: block; margin: auto
 }
 @font-face {
   font-family: crashalert;
-  src: url('CrashAlert.ttf');
+  src: url('CrashAlert1.ttf');
   format('ttf');
 }
-nav td {background-color: black; color: white; font-family: Ransomblancozero; font-size: 40pt;
+nav td {background-color: black; color: white; font-family: crashalert; font-size: 40pt;
 }
