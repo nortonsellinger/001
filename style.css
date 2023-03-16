@@ -11,5 +11,5 @@ display: block; margin: auto
   src: url('CrashAlert.ttf');
   format('ttf');
 }
-nav td {background-color: black; color: white; font-size: 40pt;
+nav td {background-color: black; color: white; font-family: Ransomblancozero; font-size: 40pt;
 }
