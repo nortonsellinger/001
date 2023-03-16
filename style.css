@@ -9,17 +9,17 @@
 
 @font-face {
   font-family: Ransomblancozero;
-  src: url('RansomBlancoZero.otf');
+  src: url('https://nortonsellinger.github.io/001/FONTS/RansomBlancoZero.otf');
   format('otf');
 }
 @font-face {
   font-family: crashalert;
-  src: url('CrashAlert1.ttf');
+  src: url('https://nortonsellinger.github.io/001/FONTS/CrashAlert.ttf');
   format('ttf');
 }
 @font-face{
   font-family: freeride;
-  src: url('Freeride.otf');
+  src: url('https://nortonsellinger.github.io/001/FONTS/Freeride.otf');
   format('otf');
 }
 
