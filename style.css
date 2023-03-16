@@ -11,5 +11,10 @@ display: block; margin: auto
   src: url('CrashAlert1.ttf');
   format('ttf');
 }
-nav td {background-color: black; color: white; font-family: crashalert; font-size: 40pt; margin-top: 10%; padding-top: 20%;
+@font-face{
+  font-family: freeride;
+  src: url('Freeride.otf');
+  format('otf');
+}
+nav td {background-color: black; color: white; font-family: freeride; font-size: 40pt; margin-top: 10%; padding-top: 20%;
 }
