@@ -1,7 +1,8 @@
 /*CLASSES*/
 
 .imgcenter {
-display: block; margin: auto
+  display: block;
+  margin: auto
 }
 
 /*FONTS*/
@@ -24,8 +25,17 @@ display: block; margin: auto
 
 /*SELECTORS*/
 
-nav td {background-color: black; color: white; font-family: freeride; font-size: 40pt; white-space: nowrap; 
+nav td {
+  background-color: black;
+  color: white;
+  font-family: freeride;
+  font-size: 40pt;
+  white-space: nowrap; 
 }
-header td {padding-top: 1%; padding-bottom: 1%;
+header td {
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
-html {min-width: 2000px}
+body {
+  min-width: 2000px
+}
