@@ -31,17 +31,38 @@
 }
 
 /*SELECTORS*/
-
+nav table {
+	background-color: black;
+	max-width: 15vw;
+	border-collapse: collapse;
+}
+nav table:first-child {
+	border-top-right-radius: 30px 30px;
+	
+}
+nav table:last-child {
+	border-bottom-right-radius: 30px 30px;
+	border-bottom: none;
+}
 nav td {
-  background-color: black;
   color: white;
   font-family: freeride;
   font-size: calc(1.5vw + 1.5em);
-   
+  border: 4px solid;
+  border-right: none;
+  border-left: none;
+  border-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav td:first{
+	border-top: none;
+}
+nav td:last{
+	border-bottom: none;
 }
 header td {
   padding-top: 1%;
   padding-bottom: 1%;
   white-space: nowrap;
 }
-
