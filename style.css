@@ -5,6 +5,13 @@
   margin: auto
 }
 
+/*PSEUDOCLASSES*/
+
+::selection {
+	color: black;
+	background-color: white;
+}
+
 /*FONTS*/
 
 @font-face {
@@ -29,13 +36,12 @@ nav td {
   background-color: black;
   color: white;
   font-family: freeride;
-  font-size: 40pt;
-  white-space: nowrap; 
+  font-size: calc(1.5vw + 1.5em);
+   
 }
 header td {
   padding-top: 1%;
   padding-bottom: 1%;
+  white-space: nowrap;
 }
-body {
-  min-width: 2000px
-}
+
