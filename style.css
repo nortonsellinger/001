@@ -42,7 +42,6 @@ nav table:first-child {
 }
 nav table:last-child {
 	border-bottom-right-radius: 30px 30px;
-	border-bottom: none;
 }
 nav td {
   color: white;
@@ -54,11 +53,12 @@ nav td {
   border-color: white;
   padding-left: 10px;
   padding-right: 10px;
+
 }
-nav td:first{
+nav table:first-child {
 	border-top: none;
 }
-nav td:last{
+nav table:last-child {
 	border-bottom: none;
 }
 header td {
