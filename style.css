@@ -67,10 +67,14 @@ nav tr {
 }
 nav tr:first-child {	
 	border-top: none;
+        border-top-right-radius: 15px;
+	
 }
 
 nav tr:last-child {
     border-bottom: none;
+    border-bottom-right-radius: 15px;
+    
 }
 
 nav td {
@@ -82,10 +86,6 @@ nav td {
   	padding-right: 10px;
   	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
-}
-nav td:last-child {
-        border-bottom-right-radius: 15px;
-	border-top-right-radius: 15px;
 }
 header table {
 	width: 100%;
