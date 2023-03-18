@@ -36,6 +36,8 @@ nav table {
 	max-width: 15vw;
 	border-collapse: collapse;
 border-color: red;
+border-top-right-radius: 15px 15px;
+border-bottom-right-radius: 15px 15px;
 }
 nav tr {
   
@@ -45,11 +47,11 @@ nav tr {
   border-color: darksalmon;
 }
 nav table:first-child {
-	border-top-right-radius: 15px 15px;
+	
 	border-top: none;
 }
 nav table:last-child {
-    border-bottom-right-radius: 15px 15px;
+    
     border-bottom: none;
 }
 nav td {
