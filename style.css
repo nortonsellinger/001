@@ -4,9 +4,7 @@
   	display: block;
   	margin: auto
 }
-.headerimg {
-	width:;
-}
+
 
 /*PSEUDOCLASSES*/
 
@@ -14,7 +12,9 @@
 	color: black;
 	background-color: white;
 }
-
+nav td:hover {
+	background-color: #353535;
+}
 /*FONTS*/
 
 @font-face {
@@ -35,9 +35,11 @@
 
 /*SELECTORS*/
 nav table {
-	background-color: black;
+	margin-top: 10px;
+	background-color: white;
 	max-width: 15vw;
-	border-collapse: collapse;
+	border-spacing: 4px;
+	border-collapse: separate;
 	border-bottom-right-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -47,6 +49,7 @@ nav tr {
   	border-right: none;
   	border-left: none;
   	border-color: white;
+
 }
 nav tr:first-child {	
 	border-top: none;
@@ -57,16 +60,19 @@ nav tr:last-child {
 }
 
 nav td {
+	background-color: black;
   	color: white;
   	font-family: freeride;
   	font-size: calc(1.5vw + 1.5em);
   	padding-left: 10px;
   	padding-right: 10px;
+  	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 header table {
-	width: 100%;
-
+	width: 10vh;
+	height: 20vh;
 	font-family: Ransomblancozero;
 	font-size: 13vh;
 	color: white;
@@ -74,17 +80,19 @@ header table {
   	white-space: nowrap;
 	border-collapse: collapse;
 }
+header img {
+	width: 100%;
+  	height: 100%;
+	object-fit: contain;
+}
 header td {
 	
 }
 #header1 {
-	max-width: 15vw;
-	border: 3px solid;
-	border-color: blue;
+	min-width: 15vw;
+	padding: 1%;
 }
 #header2 {
-	width: 85vw;
-	border: 3px solid;
-	border-color: red;
+	min-width: 85vw;
 	padding: 1%;
 }
