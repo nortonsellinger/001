@@ -45,11 +45,11 @@ nav tr {
   border-color: darksalmon;
 }
 nav table:first-child {
-	border-top-right-radius: 30px 30px;
+	border-top-right-radius: 15px 15px;
 	border-top: none;
 }
 nav table:last-child {
-    border-bottom-right-radius: 30px 30px;
+    border-bottom-right-radius: 15px 15px;
     border-bottom: none;
 }
 nav td {
