@@ -25,9 +25,9 @@
   format('ttf');
 }
 @font-face{
-  font-family: freeride;
-  src: url('https://nortonsellinger.github.io/001/FONTS/Freeride.otf');
-  format('otf');
+  	font-family: freeride;
+  	src: url('https://nortonsellinger.github.io/001/FONTS/Freeride.otf');
+  	format('otf');
 }
 
 /*SELECTORS*/
@@ -35,38 +35,52 @@ nav table {
 	background-color: black;
 	max-width: 15vw;
 	border-collapse: collapse;
-border-color: red;
-border-top-right-radius: 15px 15px;
-border-bottom-right-radius: 15px 15px;
-}
-nav tr {
-  
-  border: 4px solid;
-  border-right: none;
-  border-left: none;
-  border-color: darksalmon;
-}
-nav table:first-child {
-	
-	border-top: none;
-}
-nav table:last-child {
-    
-    border-bottom: none;
-}
-nav td {
-  color: white;
-  font-family: freeride;
-  font-size: calc(1.5vw + 1.5em);
-  border-collapse: collapse;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-top-right-radius: 30px 30px;
-  border-color: yellow
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
 }
 
+nav tr {
+  	border: 4px solid;
+  	border-right: none;
+  	border-left: none;
+  	border-color: white;
+}
+nav tr:first-child {	
+	border-top: none;
+}
+
+nav tr:last-child {
+    border-bottom: none;
+}
+
+nav td {
+  	color: white;
+  	font-family: freeride;
+  	font-size: calc(1.5vw + 1.5em);
+  	padding-left: 10px;
+  	padding-right: 10px;
+}
+
+header table {
+	width: 100%;
+	font-family: Ransomblancozero;
+	font-size: 5em;
+	color: white;
+	background-color: black;
+  	white-space: nowrap;
+	border-collapse: collapse;
+}
 header td {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  white-space: nowrap;
+	
+}
+#header1 {
+	max-width: 15vw;
+	border: 3px solid;
+	border-color: blue;
+}
+#header2 {
+	width: 85vw;
+	border: 3px solid;
+	border-color: red;
+	padding: 1%;
 }
