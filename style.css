@@ -1,8 +1,11 @@
 /*CLASSES*/
 
 .imgcenter {
-  display: block;
-  margin: auto
+  	display: block;
+  	margin: auto
+}
+.headerimg {
+	width:;
 }
 
 /*PSEUDOCLASSES*/
@@ -63,8 +66,9 @@ nav td {
 
 header table {
 	width: 100%;
+
 	font-family: Ransomblancozero;
-	font-size: 5em;
+	font-size: 13vh;
 	color: white;
 	background-color: black;
   	white-space: nowrap;
