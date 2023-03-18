@@ -51,7 +51,7 @@ nav table {
 	margin-top: 10px;
 	margin-left: -4px;
 	background-color: white;
-	max-width: calc(40vw - 100px);
+	max-width: calc(40vw - 200px);
 	border-spacing: 4px;
 	border-collapse: separate;
 	border-bottom-right-radius: 15px;
@@ -103,11 +103,11 @@ header td {
 	
 }
 #header1 {
-	min-width: calc(40vw - 100px);
+	min-width: calc(40vw - 200px);
 	width: 15vw;
 	padding: 1%;
 }
 #header2 {
-	
 	padding: 1%;
+        object-fit: contain;
 }
