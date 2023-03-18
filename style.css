@@ -36,6 +36,7 @@ nav td:hover {
 /*SELECTORS*/
 nav table {
 	margin-top: 10px;
+	margin-left: -4px;
 	background-color: white;
 	max-width: 15vw;
 	border-spacing: 4px;
