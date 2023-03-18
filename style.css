@@ -8,12 +8,21 @@
 
 /*PSEUDOCLASSES*/
 
-::selection {
+nav *::selection {
 	color: black;
 	background-color: white;
 }
+section *::selection {
+	background-color: black;
+	color: white;
+}
+footer *::selection {
+	background-color: white;
+	color: black;
+}
 nav td:hover {
 	background-color: #353535;
+	color: black;
 }
 /*FONTS*/
 
@@ -72,7 +81,7 @@ nav td {
 }
 
 header table {
-	width: 10vh;
+	width: 100%;
 	height: 20vh;
 	font-family: Ransomblancozero;
 	font-size: 13vh;
@@ -91,8 +100,10 @@ header td {
 }
 #header1 {
 	min-width: 15vw;
+	width: 15vw;
 	padding: 1%;
 }
 #header2 {
+	max-width: 85vw;
 	padding: 1%;
 }
