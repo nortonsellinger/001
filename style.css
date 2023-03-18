@@ -44,11 +44,11 @@ nav tr {
   border-left: none;
   border-color: darksalmon;
 }
-nav tr:first-child {
+nav table:first-child {
 	border-top-right-radius: 30px 30px;
 	border-top: none;
 }
-nav tr:last-child {
+nav table:last-child {
     border-bottom-right-radius: 30px 30px;
     border-bottom: none;
 }
