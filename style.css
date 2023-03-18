@@ -51,7 +51,7 @@ nav td {
 	background-color: black;
   	color: white;
   	font-family: freeride;
-  	font-size: calc(3vw - 0.5em);
+  	font-size: calc(5vw - 0.1em);
   	padding-left: 10px;
   	padding-right: 10px;
   	border-bottom-right-radius: 5px;
