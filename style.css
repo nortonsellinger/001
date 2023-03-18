@@ -47,6 +47,16 @@ nav td:hover {
 body {
     max-width: 100vw;
 }
+nav td {
+	background-color: black;
+  	color: white;
+  	font-family: freeride;
+  	font-size: calc(1.5vw + 1.5em);
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
 nav table {
 	margin-top: 10px;
 	margin-left: -4px;
@@ -77,16 +87,6 @@ nav tr:last-child {
     
 }
 
-nav td {
-	background-color: black;
-  	color: white;
-  	font-family: freeride;
-  	font-size: calc(1.5vw + 1.5em);
-  	padding-left: 10px;
-  	padding-right: 10px;
-  	border-bottom-right-radius: 5px;
-	border-top-right-radius: 5px;
-}
 header table {
 	width: 100%;
 	height: 20vh;
