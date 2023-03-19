@@ -138,6 +138,9 @@ header img {
 section {
 	margin-top: 10px;
 }
+#nav {
+    vertical-align: top;
+}
 #section {
 	width: 100%;
 	font-size: 16pt;
