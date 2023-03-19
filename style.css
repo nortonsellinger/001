@@ -1,5 +1,5 @@
 :root {
-        --header2width: calc(100% - 40vw + 200px);
+	--header2width: calc(100% - 40vw + 200px);
 }
 
 /*CLASSES*/
@@ -12,17 +12,21 @@
 
 /*PSEUDOCLASSES*/
 
+header *::selection {
+	color: black;
+	background-color: white;
+}
 nav *::selection {
 	color: black;
 	background-color: white;
 }
 section *::selection {
-	background-color: black;
 	color: white;
+	background-color: black;
 }
 footer *::selection {
-	background-color: white;
 	color: black;
+	background-color: white;
 }
 nav td:hover {
 	background-color: #353535;
@@ -31,13 +35,13 @@ nav td:hover {
 /*FONTS*/
 
 @font-face {
-  font-family: Ransomblancozero;
-  src: url('https://nortonsellinger.github.io/001/FONTS/RansomBlancoZero.otf');
-  format('otf');
+  	font-family: Ransomblancozero;
+  	src: url('https://nortonsellinger.github.io/001/FONTS/RansomBlancoZero.otf');
+  	format('otf');
 }
 @font-face {
-  font-family: crashalert;
-  src: url('https://nortonsellinger.github.io/001/FONTS/CrashAlert.ttf');
+  	font-family: crashalert;
+  	src: url('https://nortonsellinger.github.io/001/FONTS/CrashAlert.ttf');
   format('ttf');
 }
 @font-face{
@@ -63,10 +67,10 @@ nav td {
 	overflow: hidden;
 }
 nav tr:first-child td{
-        border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 nav tr:last-child td{
-        border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 nav table {
 	margin-top: 10px;
@@ -99,7 +103,7 @@ header table {
 	background-color: black;
   	white-space: nowrap;
 	border-collapse: collapse;
-    padding: calc(12vw + 8vh);
+    
 }
 header img {
 	width: 100%;
@@ -109,9 +113,13 @@ header img {
 }
 
 #header1 {
-	min-width: calc(11vw + 2vh);
+	min-width: calc(12vw + 2vh);
 	width: calc(11vw + 2vh);
+	border: 4px solid;
+	border-color: blue;
 }
 #header2 {
-        object-fit: contain;
+	padding: calc(0.1vh + 1vw - 4px);
+	padding-left: calc(0.1vh + 1vw + 10px);
+    object-fit: contain;
 }
