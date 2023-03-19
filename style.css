@@ -26,7 +26,7 @@ footer *::selection {
 }
 nav td:hover {
 	background-color: #353535;
-	color: black;
+	color: white;
 }
 /*FONTS*/
 
@@ -55,7 +55,7 @@ nav td {
 	background-color: black;
   	color: white;
   	font-family: freeride;
-  	font-size: calc(5vw - 0.1em);
+  	font-size: calc(5vw - 35px);
   	padding-left: 10px;
   	padding-right: 10px;
   	border-bottom-right-radius: 5px;
@@ -71,7 +71,7 @@ nav table {
 	margin-top: 10px;
 	margin-left: -4px;
 	background-color: white;
-	max-width: calc(40vw - 200px);
+	max-width: calc(40vw - 450px);
 	border-spacing: 4px;
 	border-collapse: separate;
 	
@@ -96,12 +96,12 @@ nav tr:last-child {
 header table {
 	width: 100%;
 	font-family: Ransomblancozero;
-	font-size: 9vw;
+	font-size: 10vw;
 	color: white;
 	background-color: black;
   	white-space: nowrap;
 	border-collapse: collapse;
-        padding: calc((10vw + 5.5vh) / 2);
+    padding: calc(12vw + 8vh);
 }
 header img {
 	width: 100%;
