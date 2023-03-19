@@ -1,3 +1,7 @@
+:root {
+        --header2width: calc(100vw - 40vw + 200px);
+}
+
 /*CLASSES*/
 
 .imgcenter {
@@ -86,7 +90,7 @@ nav tr:last-child {
 header table {
 	width: 100%;
 	font-family: Ransomblancozero;
-	font-size: 5vw;
+	font-size: calc(0.03 * var(--header2width));
 	color: white;
 	background-color: black;
   	white-space: nowrap;
@@ -110,7 +114,4 @@ header td {
         max-width: calc(100vw - 40vw + 200px);
 	padding: 1%;
         object-fit: contain;
-}
-:root {
-        --header2width: calc(100vw - 40vw + 200px);
 }
