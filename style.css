@@ -71,7 +71,7 @@ nav table {
 	margin-top: 10px;
 	margin-left: -4px;
 	background-color: white;
-	max-width: calc(40vw - 450px);
+	max-width: calc(50vw + 1050px);
 	border-spacing: 4px;
 	border-collapse: separate;
 	
