@@ -74,7 +74,7 @@ nav tr:last-child td{
 }
 nav table {
 	margin-top: 10px;
-	margin-left: -4px;
+	margin-left: -6px;
 	background-color: white;
 	max-width: calc(11vw + 2vh);
 	border-collapse: separate;
