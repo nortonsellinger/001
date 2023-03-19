@@ -90,7 +90,7 @@ nav tr:last-child {
 header table {
 	width: 100%;
 	font-family: Ransomblancozero;
-	font-size: 80%;
+	font-size: 100vw;
 	color: white;
 	background-color: black;
   	white-space: nowrap;
