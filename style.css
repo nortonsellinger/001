@@ -55,11 +55,12 @@ nav td {
 	background-color: black;
   	color: white;
   	font-family: freeride;
-  	font-size: calc(5vw - 35px);
+  	font-size: calc(2vw + 15px);
   	padding-left: 10px;
   	padding-right: 10px;
   	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
+	overflow: hidden;
 }
 nav tr:first-child td{
         border-top-right-radius: 10px;
@@ -71,11 +72,8 @@ nav table {
 	margin-top: 10px;
 	margin-left: -4px;
 	background-color: white;
-	max-width: calc(10vw + 5vh);
-	border-spacing: 4px;
+	max-width: calc(11vw + 2vh);
 	border-collapse: separate;
-	
-	
 }
 
 nav tr {
@@ -96,7 +94,7 @@ nav tr:last-child {
 header table {
 	width: 100%;
 	font-family: Ransomblancozero;
-	font-size: 10vw;
+	font-size: 9vw;
 	color: white;
 	background-color: black;
   	white-space: nowrap;
@@ -106,18 +104,14 @@ header table {
 header img {
 	width: 100%;
   	height: 100%;
-        max-height: 10vw;
+    max-height: 10vw;
 	object-fit: contain;
 }
-header td {
-	
-}
+
 #header1 {
-	min-width: calc(40vw - 400px);
-	width: 15vw;
-	
+	min-width: calc(11vw + 2vh);
+	width: calc(11vw + 2vh);
 }
 #header2 {
-        
         object-fit: contain;
 }
