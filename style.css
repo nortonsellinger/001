@@ -1,5 +1,5 @@
 :root {
-        --header2width: calc(100vw - 40vw + 200px);
+        --header2width: calc(100% - 40vw + 200px);
 }
 
 /*CLASSES*/
