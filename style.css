@@ -120,9 +120,9 @@ header img {
 	border-color: blue;*/
 }
 #header2 {
+        width: 100%;
 	padding: calc(0.1vh + 1vw - 4px);
 	padding-left: calc(0.1vh + 1vw + 10px);
-    object-fit: contain;
 }
 #content {
 	width: 100%;
